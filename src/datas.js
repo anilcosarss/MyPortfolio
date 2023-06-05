@@ -8,6 +8,7 @@ import bootstrap from "./assets/experience/bootstrap-600x600.jpg"
 import tailwind from "./assets/experience/tailwind.png"
 
 // projects
+import chatapp from "./assets/projects/chatapp.png"
 import ecommerce from "./assets/projects/ecommect.png"
 import sneakers from "./assets/projects/sneakersapp.png"
 import movies from "./assets/projects/moviesapp.png"
@@ -19,6 +20,7 @@ import weather from "./assets/projects/weatherapi.png"
 import spendmoney from "./assets/projects/spendmoney.png"
 import todo from "./assets/projects/react-todo.png"
 import basiccart from "./assets/projects/basiccart.png"
+
 
 import githubfinder from "./assets/projects/githubfinder.png"
 import genderize from "./assets/projects/genderize.png"
@@ -35,9 +37,16 @@ import rockie from "./assets/projects/rockie.png"
 
 
 export const projectsReact = [
-
     {
         id: 1,
+        src: chatapp,
+        title: "Chat App (Firebase) ",
+        code: "https://github.com/anilcosarss/React-Chat-App",
+        display: "https://chatapp-b27cc.web.app/"
+    },
+
+    {
+        id: 2,
         src: ecommerce,
         title: "Shopping E-Commerce ",
         code: "https://github.com/anilcosarss/Shopping-App",
@@ -45,70 +54,70 @@ export const projectsReact = [
     },
 
     {
-        id: 2,
+        id: 3,
         src: sneakers,
         title: "Sneakers E-Commerce ",
         code: "https://github.com/anilcosarss/React-Sneakers-ECommerce",
         display: "https://anilcosarss-sneakers-app.surge.sh/"
     },
     {
-        id: 3,
+        id: 4,
         src: movies,
         title: "Movies App",
         code: "https://github.com/anilcosarss/React-Movies-API",
         display: "https://anilcosarss-movies.surge.sh/"
     },
     {
-        id: 4,
+        id: 5,
         src: books,
         title: "BookList App",
         code: "https://github.com/anilcosarss/React-Books-App",
         display: "https://anilcosarss-books-app.surge.sh/"
     },
     {
-        id: 5,
+        id: 6,
         src: recipe,
         title: "Recipe App",
         code: "https://github.com/anilcosarss/React-Recipe-App",
         display: "https://anilcosarss-recipe-app.netlify.app/"
     },
     {
-        id: 6,
+        id: 7,
         src: currency,
         title: "Curreny Converter",
         code: "https://github.com/anilcosarss/React-Currency-Converter",
         display: "https://anilcosarss-currency.surge.sh/"
     },
     {
-        id: 7,
+        id: 8,
         src: faketweet,
         title: "FakeTweet Generator",
         code: "https://github.com/anilcosarss/React-Fake-Tweet-App",
         display: "https://anilcosarss-fake-tweet.surge.sh/"
     },
     {
-        id: 8,
+        id: 9,
         src: weather,
         title: "Weather App",
         code: "https://github.com/anilcosarss/React-Weather-Api",
         display: "https://anilcosarss-weatherapi.netlify.app/"
     },
     {
-        id: 9,
+        id: 10,
         src: spendmoney,
         title: "Spend Money App",
         code: "https://github.com/anilcosarss/React-Spend-Money-App",
         display: "https://anilcosarss-spend-money.surge.sh/"
     },
     {
-        id: 10,
+        id: 11,
         src: todo,
         title: "Todo App",
         code: "https://github.com/anilcosarss/React-TodoList",
         display: "https://anilcosarsstodoo.netlify.app/"
     },
     {
-        id: 11,
+        id: 12,
         src: basiccart,
         title: "Random Cart",
         code: "https://github.com/anilcosarss/React-Cart-Project",
